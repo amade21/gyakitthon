@@ -1,0 +1,26 @@
+eljaras osszegzes(i:egesz, N:egesz):
+    valtozok:   i:egesz
+                ossz:elemtipus
+    ossz:=0
+    ciklus i:=0-tól N-1-ig:
+        ossz:=ossz+x[i]
+    cvege
+    ki:ossz
+evege
+
+
+
+
+
+
+
+eljaras megszamlalas(i:egesz, N:egesz):
+    valtozok:   i:egesz
+                db:egesz
+    db:=0
+    ciklus i:=0-tól N-1-ig:
+        Ha x[i]=T akkor db:=db+1
+        Havege
+    cvege
+    ki:db
+evege
